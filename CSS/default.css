@@ -1,0 +1,119 @@
+﻿* {
+    text-align: center;
+}
+
+body {
+    background: #f9f9f7 url(../img/bandera.jpg) repeat-x;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+}
+
+#outer {
+    width: 60%;
+    position: relative;
+    overflow: overlay;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: initial;
+    margin-top: 10px;
+}
+
+a {
+    color: red;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#hoja {
+    background-color: #FFF;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+#tabla1 {
+    margin: 0 auto;
+}
+
+#principal {
+    float: left;
+    width: 74%;
+    margin-right: 3px;
+}
+
+
+#tabla2 {
+    border: 1px solid black;
+}
+
+.encabezadotabla {
+    width: 100px;
+}
+
+#tabla2 {
+    margin: 0 auto;
+}
+
+.segundatabla {
+    width: 120px;
+    border-right: 1px solid black;
+}
+
+.segundatabla.primera {
+    border-top: 1px solid black;
+}
+
+.segundatabla.primera.final {
+    border-top: 1px solid black;
+}
+
+.segundatabla.final {
+    width: 120px;
+    border-right: none;
+}
+
+#segundo {
+    float: right;
+    width: 25%;
+}
+
+ul li {
+    text-align: left;
+    list-style: url(../img/a38.gif);
+}
+
+#segundo #aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+#footer {
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: #a8a88d;
+    padding-top: 15px;
+}
+
+#informacion #infoprincipal {
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+
+@media only screen and (max-width: 720px) {
+    #segundo {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #principal {
+        width: 100%;
+        margin: 0;
+    }
+}
